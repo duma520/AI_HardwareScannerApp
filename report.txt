@@ -1,0 +1,38 @@
+==================================================
+AI加速能力检测报告
+生成时间: 2025-03-30 21:46:52
+==================================================
+
+[系统信息]
+操作系统: Windows 10
+Python版本: 3.10.11
+OpenCV版本: 4.11.0 (CUDA: 否)
+PyTorch版本: 2.4.1+cpu (CUDA: 否)
+Matplotlib版本: 3.10.1 (字体缓存: 已构建)
+
+[CPU信息]
+型号: AMD Phenom(tm) II X4 955 Processor
+核心/线程: 4/4
+当前频率: 3200.0 MHz
+指令集: AVX(False) SSE4.2(False)
+
+[GPU信息]
+型号: GeForce GTS 450
+显存: 1024.0 MB
+驱动版本: 388.13
+CUDA核心: None
+
+[AI框架支持]
+ONNX Runtime: 是 (GPU: 否)
+TensorRT: 是
+YOLOv8: 是
+MobileNet: 是
+
+[优化建议]
+- [注意] 您的CPU不支持AVX指令集，部分AI加速功能可能受限
+- [推荐] 您的CPU有4个物理核心，建议启用多线程处理
+- [推荐] 检测到GPU: GeForce GTS 450 (显存: 1024.0MB)
+- [注意] GPU显存较小，建议使用轻量级模型如YOLOv8n或MobileNet
+- [推荐] TensorRT已安装，可对模型进行极致优化
+- [推荐] 已安装YOLOv8，推荐使用YOLOv8n进行实时目标检测
+- [推荐] MobileNet可用，适合轻量级图像分类任务

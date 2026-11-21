@@ -1,0 +1,78 @@
+{
+    "system": {
+        "system": "Windows",
+        "release": "10",
+        "version": "10.0.19045",
+        "machine": "AMD64",
+        "python_version": "3.10.11",
+        "opencv": {
+            "version": "4.11.0",
+            "cuda": false,
+            "opencl": true
+        },
+        "pytorch": {
+            "version": "2.4.1+cpu",
+            "cuda_available": false,
+            "cuda_version": "\u65e0"
+        },
+        "matplotlib": {
+            "version": "3.10.1",
+            "font_cache": "\u5df2\u6784\u5efa",
+            "available": true
+        }
+    },
+    "cpu": {
+        "model": "AMD Phenom(tm) II X4 955 Processor",
+        "cores": 4,
+        "threads": 4,
+        "frequency": {
+            "current": 3200.0,
+            "max": 3200.0
+        },
+        "features": {
+            "avx": false,
+            "sse4_2": false,
+            "avx2": false,
+            "fma": false
+        },
+        "usage": 40.1
+    },
+    "gpu": {
+        "name": "GeForce GTS 450",
+        "memory_total": 1024.0,
+        "memory_free": 215.0,
+        "driver": "388.13",
+        "cuda_cores": null,
+        "load": NaN,
+        "detected": true
+    },
+    "ram": {},
+    "ai_frameworks": {
+        "onnxruntime": {
+            "version": "1.15.1",
+            "gpu": false,
+            "available": true
+        },
+        "tensorrt": {
+            "version": "***已脱敏***-内网IP",
+            "available": true
+        },
+        "yolov8": {
+            "available": true
+        },
+        "mobilenet": {
+            "available": true
+        }
+    },
+    "recommendations": [
+        "\u26a0\ufe0f \u60a8\u7684CPU\u4e0d\u652f\u6301AVX\u6307\u4ee4\u96c6\uff0c\u90e8\u5206AI\u52a0\u901f\u529f\u80fd\u53ef\u80fd\u53d7\u9650",
+        "\u2705 \u60a8\u7684CPU\u67094\u4e2a\u7269\u7406\u6838\u5fc3\uff0c\u5efa\u8bae\u542f\u7528\u591a\u7ebf\u7a0b\u5904\u7406",
+        "\u2705 \u68c0\u6d4b\u5230GPU: GeForce GTS 450 (\u663e\u5b58: 1024.0MB)",
+        "\u26a0\ufe0f GPU\u663e\u5b58\u8f83\u5c0f\uff0c\u5efa\u8bae\u4f7f\u7528\u8f7b\u91cf\u7ea7\u6a21\u578b\u5982YOLOv8n\u6216MobileNet",
+        "\u2705 TensorRT\u5df2\u5b89\u88c5\uff0c\u53ef\u5bf9\u6a21\u578b\u8fdb\u884c\u6781\u81f4\u4f18\u5316",
+        "\u2705 \u5df2\u5b89\u88c5YOLOv8\uff0c\u63a8\u8350\u4f7f\u7528YOLOv8n\u8fdb\u884c\u5b9e\u65f6\u76ee\u6807\u68c0\u6d4b",
+        "\u2705 MobileNet\u53ef\u7528\uff0c\u9002\u5408\u8f7b\u91cf\u7ea7\u56fe\u50cf\u5206\u7c7b\u4efb\u52a1",
+        "\ud83d\udee0\ufe0f \u63a8\u8350\u65b9\u6848: MobileNetV3 + OpenCV DNN (\u517c\u5bb9\u6a21\u5f0f)"
+    ],
+    "timestamp": "2025-03-30 21:47:00"
+}
